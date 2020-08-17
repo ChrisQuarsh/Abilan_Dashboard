@@ -1,0 +1,368 @@
+.first-sidebar {
+  background-image: linear-gradient(rgb(141, 91, 250), rgb(185, 147, 250));
+}
+
+.second-sidebar {
+  background-color: white;
+}
+
+.main-area {
+  background-color: rgb(245, 246, 250);
+}
+
+.list-glyph {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.first-sidebar-glyphs {
+  margin-bottom: 500px;
+}
+
+.nav > li > a {
+  color: #2d2a2a;
+  position: relative;
+  display: block;
+  padding: 15px 15px;
+  width: 55px;
+}
+
+.second-sidebar-glyphs .glyphicon-envelope:before {
+  margin-right: 20px;
+}
+
+.second-sidebar-glyphs .glyphicon-send:before {
+  margin-right: 20px;
+}
+
+.second-sidebar-glyphs .glyphicon-star:before {
+  margin-right: 20px;
+}
+
+.second-sidebar-glyphs .glyphicon-trash:before {
+  margin-right: 20px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: fff;
+  background-color: #4c4eb8;
+}
+
+.presentation {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  box-shadow: 30px;
+}
+
+.albin {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  background-color: blueviolet;
+  background: linear-gradient(to right, #f0f5f7f3, blueviolet);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.child {
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+}
+
+.kidi {
+  background-color: pink;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.compose {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.compose-button {
+  background-image: linear-gradient(
+    to right,
+    rgb(214, 70, 159),
+    rgb(250, 186, 229)
+  );
+  color: white;
+}
+
+.second-sidebar-glyphs .nav > li > a {
+  color: #9b9a9a;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  width: 185px;
+  font-size: 16px;
+}
+
+.second-sidebar-glyphs .nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: fff;
+  background-color: white;
+  color: #4c4eb8;
+}
+
+.badge {
+  background-image: linear-gradient(
+    to right,
+    rgb(253, 143, 143),
+    rgb(240, 63, 63)
+  );
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.online-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.online-name {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  padding: 10px 15px;
+  margin: 5px 5px;
+}
+
+.glyphicon-tags:before {
+  margin-right: 5px;
+}
+
+.important {
+  background-color: rgba(231, 231, 231, 0.945);
+  color: purple;
+}
+.new {
+  background-color: rgba(231, 231, 231, 0.945);
+  color: rgb(199, 72, 93);
+  padding-left: 3px;
+}
+.old {
+  background-color: rgba(231, 231, 231, 0.945);
+  color: blue;
+}
+.priority {
+  background-color: rgba(231, 231, 231, 0.945);
+  color: rgb(48, 240, 48);
+}
+
+.main-area .navbar-brand {
+  font-size: 25px;
+  color: black;
+}
+
+.navbar-default {
+  background-color: rgb(245, 246, 250);
+  border: 0px solid transparent;
+  padding-bottom: 6px;
+}
+
+.navbar-glyphs .nav > li > a {
+  color: #b8b7b7;
+  position: relative;
+  display: block;
+  width: fit-content;
+}
+
+.glyphicon-globe:before {
+  margin-right: 5px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  box-shadow: 30px;
+}
+
+.main-area-profile-pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  box-shadow: 30px;
+}
+
+.navbar {
+  margin-bottom: none;
+}
+
+.second-navbar {
+  border-bottom: 1px solid #b8b7b7;
+  padding-top: 0px;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.secondnav-middle-glyphs {
+  height: 10px;
+  margin-left: 200px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #e9eaef;
+}
+
+.secondnav-glyphs {
+  display: flex;
+  border-radius: 10px;
+  background-color: #e9eaef;
+}
+
+.secondnav-glyphs > ul {
+  padding: 10px 10px;
+}
+
+.custom-gray {
+  background-color: #e9eaef;
+  margin: none;
+}
+
+.custom-white {
+  margin-right: px;
+  color: purple;
+  background-color: white;
+  padding: 10px 10px;
+  box-shadow: 2px solid gray;
+  -webkit-box-shadow: 0 0 10px 10px rgb(226, 226, 226);
+  -moz-box-shadow: 0 0 10px 10px rgb(226, 226, 226);
+  box-shadow: 0 0 10px 10px rgb(226, 226, 226);
+}
+
+.main-area .online-name {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.real {
+  background-color: rgb(245, 246, 250);
+}
+
+.users-comment {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.second-users-comment {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+  -webkit-box-shadow: 0 8px 60px -6px #b8b7b7;
+  -moz-box-shadow: 0 8px 60px -6px #b8b7b7;
+  box-shadow: 0 30px 60px -6px #b8b7b7;
+}
+
+.users-comment .online-name {
+  padding-left: 10px;
+}
+
+.opened-mail {
+  background-color: white;
+}
+
+.real .col-md-5 {
+  width: 46.66666667%;
+}
+
+.message-options {
+  display: flex;
+}
+
+.message-options .label {
+  padding: 5px 10px;
+  margin: 5px 5px;
+}
+
+.view-all {
+  background-color: rgba(231, 231, 231, 0.945);
+  color: blue;
+}
+.download-all {
+  background-color: rgba(231, 231, 231, 0.945);
+  color: green;
+}
+
+.mail-images {
+  display: flex;
+  margin: 20px 0px;
+  margin-bottom: 50px;
+}
+
+.mail-pic {
+  height: 60px;
+  width: 60px;
+  box-shadow: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.remaining-mail-pic {
+  flex-wrap: wrap;
+  background-color: #b8b7b7;
+  height: 60px;
+  width: 60px;
+  box-shadow: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.reply-button {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.forward-button {
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
