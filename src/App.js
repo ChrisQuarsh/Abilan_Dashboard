@@ -112,6 +112,10 @@ function App() {
                   <button
                     type="button"
                     className="btn btn-default compose-button"
+                    style={{
+                      backgroundColor: "pink",
+                      color: " white",
+                    }}
                   >
                     <h4>+ Compose Mail</h4>
                   </button>
